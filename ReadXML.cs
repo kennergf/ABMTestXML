@@ -1,6 +1,5 @@
 using System.Linq;
 using System.Xml.Linq;
-using ABMTestXML.Entities;
 
 namespace ABMTestXML
 {
@@ -8,7 +7,7 @@ namespace ABMTestXML
     {
         private string _pathXML;
         private XDocument doc;
-        
+
         public ReadXML(string pathXML)
         {
             _pathXML = pathXML;
