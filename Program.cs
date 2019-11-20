@@ -6,7 +6,7 @@ namespace ABMTestXML
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write the RefCode");
+            Console.WriteLine("Write the RefCode exemple: \"CAR\" without quotation marks");
             var refCode = Console.ReadLine().ToUpper();
 
             var readXML = new ReadXML(System.IO.Path.GetFullPath("InputDocument.xml"));
